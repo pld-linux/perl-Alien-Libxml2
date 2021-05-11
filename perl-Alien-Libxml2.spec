@@ -16,6 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/Alien/%{pdir}-%{pnam}-%{version}.
 # Source0-md5:	746d7452f1bbdd2707f07319ae4a5444
 URL:		https://metacpan.org/release/Alien-Libxml2
 BuildRequires:	libxml2-devel >= 1:2.9.5
+BuildRequires:	perl-Alien-Base
 BuildRequires:	perl-Alien-Build >= 2.12
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.52
 BuildRequires:	perl-Test-Alien
