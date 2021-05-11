@@ -26,6 +26,8 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_enable_debug_packages	0
+
 %description
 This module provides libxml2 for other modules to use.
 
