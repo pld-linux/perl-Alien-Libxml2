@@ -8,7 +8,7 @@ Summary:	Alien::Libxml2 - provide the C libxml2 library
 Summary(pl.UTF-8):	Alien::Libxml2 - dostarczenie biblioteki C libxml2
 Name:		perl-Alien-Libxml2
 Version:	0.17
-Release:	2
+Release:	3
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
