@@ -1,23 +1,24 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Alien
 %define		pnam	Libxml2
 Summary:	Alien::Libxml2 - provide the C libxml2 library
 Summary(pl.UTF-8):	Alien::Libxml2 - dostarczenie biblioteki C libxml2
 Name:		perl-Alien-Libxml2
-Version:	0.17
-Release:	3
+Version:	0.19
+Release:	1
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Alien/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5fee0bd3a987a1e7f40ce50016c10c8a
+# Source0-md5:	54ef82ddf7641279a72f216e405f9a5e
 URL:		https://metacpan.org/release/Alien-Libxml2
 BuildRequires:	libxml2-devel >= 1:2.9.5
 BuildRequires:	perl-Alien-Base >= 2.37
 BuildRequires:	perl-Alien-Build >= 2.37
+BuildRequires:	perl-Alien-Build-Plugin-Download-GitLab
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.52
 BuildRequires:	perl-Test-Alien
 BuildRequires:	perl-Test2-Suite >= 0.000060
