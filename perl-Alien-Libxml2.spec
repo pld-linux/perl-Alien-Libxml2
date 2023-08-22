@@ -14,7 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Alien/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	54ef82ddf7641279a72f216e405f9a5e
-URL:		https://metacpan.org/release/Alien-Libxml2
+URL:		https://metacpan.org/dist/Alien-Libxml2
 BuildRequires:	libxml2-devel >= 1:2.9.5
 BuildRequires:	perl-Alien-Base >= 2.37
 BuildRequires:	perl-Alien-Build >= 2.37
